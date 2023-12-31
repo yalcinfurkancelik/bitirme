@@ -1,3 +1,7 @@
+import os
+
+# requirements.txt dosyasındaki kütüphaneleri yükle
+os.system('pip install -r requirements.txt')
 import streamlit as st
 import numpy as np
 import pandas as pd 
